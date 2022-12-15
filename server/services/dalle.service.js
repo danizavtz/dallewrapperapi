@@ -8,7 +8,7 @@ exports.dalle = async (req, res) => {
                 'Authorization': `Bearer ${process.env.APIKEY}`,
             },
             body: JSON.stringify({
-                prompt: "A cute baby sea otter",
+                prompt: req.body.frase,
                 n: 2,
                 size: "1024x1024"
             })
