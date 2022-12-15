@@ -1,0 +1,34 @@
+{
+  "name": "dallewrapperapi",
+  "version": "1.0.0",
+  "description": "dalle wrapper for api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon bin/www",
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danizavtz/dallewrapperapi.git"
+  },
+  "keywords": [
+    "dalle",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "danizavtz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danizavtz/dallewrapperapi/issues"
+  },
+  "homepage": "https://github.com/danizavtz/dallewrapperapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
