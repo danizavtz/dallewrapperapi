@@ -6,6 +6,15 @@ Ele apenas encapsula as chamadas para fazer uma requisição na api.
 ## Instruções para instalar
 
 * Clone este projeto
+
+    git clone git@github.com:danizavtz/dallewrapperapi.git
+
+Ou use a opção para clonar utilizando o https.
+
+* Após clonar o projeto entre na pasta do projeto:
+
+    cd dallewrapperapi
+
 * instale as dependências com o comando:
 
     npm i 
